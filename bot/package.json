@@ -1,0 +1,17 @@
+{
+  "name": "moo-bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd ../.env node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@spectacles/spectacles.js": "^0.5.0",
+    "lavalink.js": "file:lavalink.js",
+    "simple-youtube-api": "^5.0.1"
+  }
+}

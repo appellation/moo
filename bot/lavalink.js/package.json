@@ -1,0 +1,15 @@
+{
+  "name": "lavalink.js",
+  "version": "0.1.0",
+  "description": "A JS client for Lavalink.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "ws": "^4.0.0"
+  }
+}

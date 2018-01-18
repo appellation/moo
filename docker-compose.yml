@@ -1,0 +1,20 @@
+version: '2'
+services:
+  bot:
+    build: ./bot
+    env_file: .env
+    restart: always
+    depends_on:
+      - lavalink
+      - rabbit
+  gateway:
+    build: ./gateway
+    env_file: .env
+    restart: always
+    depends_on:
+      - rabbit
+  lavalink:
+    build: ./lavalink
+    restart: always
+  rabbit:
+    image: rabbitmq:alpine
